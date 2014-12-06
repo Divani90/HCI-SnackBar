@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.snackbar_itgm.Opciones" >
+
+   <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Snack-Bar"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35sp" />
+
+   <Button
+       android:id="@+id/Volver"
+       style="?android:attr/buttonStyleSmall"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="29dp"
+       android:layout_toLeftOf="@+id/button3"
+       android:text="Volver" />
+
+   <Button
+       android:id="@+id/button05"
+       style="?android:attr/buttonStyleSmall"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/Volver"
+       android:layout_alignBottom="@+id/Volver"
+       android:layout_alignParentRight="true"
+       android:text="Terminar" />
+
+   <Button
+       android:id="@+id/Snacks"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/Comida"
+       android:layout_below="@+id/textView1"
+       android:layout_marginTop="28dp"
+       android:text="Snacks" />
+
+   <Button
+       android:id="@+id/Comida"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/Snacks"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="34dp"
+       android:text="Comida" />
+
+   <Button
+       android:id="@+id/Bebidas"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/Comida"
+       android:layout_below="@+id/Comida"
+       android:layout_marginTop="32dp"
+       android:text="Bebidas" />
+
+</RelativeLayout>
